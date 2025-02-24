@@ -1,99 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Buy Something</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="nombreDelArchivo.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Desserts</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
 </head>
 <body>
   <header>
     <h1>Desserts</h1>
   </header>
-  
   <div class="main-content">
-    
     <section class="menu">
       <div>
-        <img src="image-waffle-tablet.jpg" alt="Waffle with Berries">
+        <img src="image-waffle-tablet.jpg" alt="Waffle with Berries" />
         <h5>Waffle</h5>
         <p>Waffle with Berries</p>
-        <p>6.50</p>
-        <button class="add-item">Add to Cart</button>
+        <p class="price">6.50</p>
+        <button class="add-item" data-name="Waffle with Berries" data-price="6.50">
+          <img src="icon-add-to-cart.svg" alt="Add to cart" />
+          Add to Cart
+        </button>
       </div>
-
       <div>
-        <img src="image-creme-brulee-tablet.jpg" alt="Vanilla Bean Crème Brûlée">
+        <img src="image-creme-brulee-tablet.jpg" alt="Vanilla Bean Crème Brûlée" />
         <h5>Crème Brûlée</h5>
         <p>Vanilla Bean Crème Brûlée</p>
-        <p>7.00</p>
-        <button class="add-item">Add to Cart</button>
+        <p class="price">7.00</p>
+        <button class="add-item" data-name="Vanilla Bean Crème Brûlée" data-price="7.00">
+          <img src="icon-add-to-cart.svg" alt="Add to cart" />
+          Add to Cart
+        </button>
       </div>
-
       <div>
-        <img src="image-macaron-tablet.jpg" alt="Macaron Mix of Five">
+        <img src="image-macaron-tablet.jpg" alt="Macaron Mix of Five" />
         <h5>Macaron</h5>
         <p>Macaron Mix of Five</p>
-        <p>8.00</p>
-        <button class="add-item">Add to Cart</button>
+        <p class="price">8.00</p>
+        <button class="add-item" data-name="Macaron Mix of Five" data-price="8.00">
+          <img src="icon-add-to-cart.svg" alt="Add to cart" />
+          Add to Cart
+        </button>
       </div>
-
       <div>
-        <img src="image-tiramisu-tablet.jpg" alt="Classic Tiramisu">
+        <img src="image-tiramisu-tablet.jpg" alt="Classic Tiramisu" />
         <h5>Tiramisu</h5>
         <p>Classic Tiramisu</p>
-        <p>5.50</p>
-        <button class="add-item">Add to Cart</button>
+        <p class="price">5.50</p>
+        <button class="add-item" data-name="Classic Tiramisu" data-price="5.50">
+          <img src="icon-add-to-cart.svg" alt="Add to cart" />
+          Add to Cart
+        </button>
       </div>
-
       <div>
-        <img src="image-baklava-tablet.jpg" alt="Pistachio Baklava">
+        <img src="image-baklava-tablet.jpg" alt="Pistachio Baklava" />
         <h5>Baklava</h5>
         <p>Pistachio Baklava</p>
-        <p>4.00</p>
-        <button class="add-item">Add to Cart</button>
+        <p class="price">4.00</p>
+        <button class="add-item" data-name="Pistachio Baklava" data-price="4.00">
+          <img src="icon-add-to-cart.svg" alt="Add to cart" />
+          Add to Cart
+        </button>
       </div>
-
       <div>
-        <img src="image-meringue-tablet.jpg" alt="Lemon Meringue Pie">
+        <img src="image-meringue-tablet.jpg" alt="Lemon Meringue Pie" />
         <h5>Pie</h5>
         <p>Lemon Meringue Pie</p>
-        <p>5.00</p>
-        <button class="add-item">Add to Cart</button>
+        <p class="price">5.00</p>
+        <button class="add-item" data-name="Lemon Meringue Pie" data-price="5.00">
+          <img src="icon-add-to-cart.svg" alt="Add to cart" />
+          Add to Cart
+        </button>
       </div>
-
       <div>
-        <img src="image-cake-tablet.jpg" alt="Red Velvet Cake">
+        <img src="image-cake-tablet.jpg" alt="Red Velvet Cake" />
         <h5>Cake</h5>
         <p>Red Velvet Cake</p>
-        <p>4.50</p>
-        <button class="add-item">Add to Cart</button>
+        <p class="price">4.50</p>
+        <button class="add-item" data-name="Red Velvet Cake" data-price="4.50">
+          <img src="icon-add-to-cart.svg" alt="Add to cart" />
+          Add to Cart
+        </button>
       </div>
-
       <div>
-        <img src="image-brownie-tablet.jpg" alt="Salted Caramel Brownie">
+        <img src="image-brownie-tablet.jpg" alt="Salted Caramel Brownie" />
         <h5>Brownie</h5>
         <p>Salted Caramel Brownie</p>
-        <p>4.50</p>
-        <button class="add-item">Add to Cart</button>
+        <p class="price">4.50</p>
+        <button class="add-item" data-name="Salted Caramel Brownie" data-price="4.50">
+          <img src="icon-add-to-cart.svg" alt="Add to cart" />
+          Add to Cart
+        </button>
       </div>
-
       <div>
-        <img src="image-panna-cotta-tablet.jpg" alt="Vanilla Panna Cotta">
+        <img src="image-panna-cotta-tablet.jpg" alt="Vanilla Panna Cotta" />
         <h5>Panna Cotta</h5>
         <p>Vanilla Panna Cotta</p>
-        <p>6.50</p>
-        <button class="add-item">Add to Cart</button>
+        <p class="price">6.50</p>
+        <button class="add-item" data-name="Vanilla Panna Cotta" data-price="6.50">
+          <img src="icon-add-to-cart.svg" alt="Add to cart" />
+          Add to Cart
+        </button>
       </div>
     </section>
-
     <section class="but-dessert">
-      <h5>Your Cart</h5>
-    
-      <button class="confirm-order">Confirm Order</button> 
+      <h5 class="cart-title">Your Cart (0)</h5>
+      <div class="cart-items"></div>
+      <p class="order-total">Order Total: $0.00</p>
+      <p class="carbon-neutral">This is a carbon-neutral delivery</p>
+      <button class="confirm-order">Confirm Order</button>
     </section>
-
   </div>
 </body>
 </html>
