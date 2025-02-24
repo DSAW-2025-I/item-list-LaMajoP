@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: hsl(20, 50%, 98%);
+  }
+  
+  header {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  
+  .main-content {
+    display: flex;             
+    align-items: flex-start;   
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;         
+    gap: 20px;                 
+  }
+
+  .menu {
+    flex: 3;                              
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+ 
+  .menu > div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  .menu > div img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .add-item {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: hsl(14, 86%, 42%);
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .but-dessert {
+    flex: 1;                         
+    background-color: hsl(20, 50%, 90%);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+  }
+  
+  .but-dessert h5 {
+    color: #858383d8;
+    margin-top: 0;
+  }
+  
+
+  .confirm-order {
+    margin-top: 20px;
+    padding: 8px 16px;
+    border: none;
+    background-color: hsl(14, 86%, 42%);
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .main-content {
+      flex-direction: column;
+    }
+  
+    .but-dessert {
+      width: 100%;       
+      margin-top: 20px;      
+    }
+  }
+  
